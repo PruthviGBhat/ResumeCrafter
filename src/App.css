@@ -1,38 +1,128 @@
-.App {
+
+.custom-logo {
+  width: 70px;
+  height: 60px;
+}
+.custom-logo2 {
+  width: 500px;
+  height: 300px;
+}
+.landingbtn{
+  width: 200px;
+  height: 50px;
+}
+.logincont{
+  background-color: rgb(207, 230, 230);
+  width: 600px;
+  height: 500px;
+}
+.emailinput{
+  width: 80%;
+}
+.maincontainer{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.contactcontainer{
+  width: 60%;
+  height: 75vh;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  overflow: hidden;
+}
+.contformcontainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  height: 400px;
+  /* align-items: center; */
+}
+.continstyle{
+  width: 350px;
+}
+
+.previewcontainer{
+  width: 40%;
+  height: 100vh;
+}
+.prevformcontainer{
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.titletext{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.titletext:nth-child(2){
+  margin-left: 40px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.loginbtn{
+  width: 150px;
+  height: 40px;
+  margin-left: 25px;
+  margin-top: 40px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.loginbtn2{
+  width: 150px;
+  height: 40px;
+  margin-left: 25px;
+  margin-top: 40px;
+}
+.previewcontainerfinal{
+  width: 70%;
+  height: 100vh;
+  margin-right: 20px;
+  
+}
+.prevformcontainerfinal{
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 60px;
+  
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.downloadresume{
+  cursor: pointer;
+  background-color: black;
   color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
 }
-
-.App-link {
-  color: #61dafb;
+.saveresume{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.resumecoverbtn{
+  display: flex;
+  justify-content: end;
+  height: 70px;
+}
+.templateimg img{
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+}
+.templateimg{
+  margin-bottom: 30px;
+}
+.styleTemplate{
+  display: flex;
+  flex-wrap: wrap;
 }
